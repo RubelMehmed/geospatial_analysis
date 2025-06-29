@@ -1,0 +1,49 @@
+# Excel lock and temporary files
+~$*
+*.tmp
+*.bak
+*.swp
+
+# Jupyter/IPython cache
+.ipynb_checkpoints/
+
+# Python bytecode and cache
+__pycache__/
+*.py[cod]
+*.so
+
+# Environment files
+.env
+*.env
+.venv/
+env/
+venv/
+*.conda
+*.egg-info/
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+*.log
+
+# VS Code settings
+.vscode/
+
+
+# Ignore temporary/lock files in data folder
+/geodata
+geodata/~$*
+geodata/*.tmp
+geodata/*.bak
+geodata/*.log
+geodata/*.swp
+# Ignore all files in geodata except for specific data files
+geodata/*
+
+
+# Don't ignore actual useful data files (like .csv or .xlsx)
+!geodata/*.csv
+!geodata/*.xlsx
+
+
+# Ignore specific data files
